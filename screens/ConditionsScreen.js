@@ -30,7 +30,7 @@ export default function ConditionsScreen() {
       const { title, onset, status } = issue;
       return (
         <StyledCard
-          key={`${patientId}-${title}-${index}`}
+          key={`condition-${patientId}-${index}`}
           title={title}
           date={onset}
           status={status}

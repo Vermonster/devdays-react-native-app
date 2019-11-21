@@ -30,7 +30,7 @@ export default function MedicationRequestsScreen() {
       const { title, onset, status } = issue;
       return (
         <StyledCard
-          key={`${patientId}-${title}-${index}`}
+          key={`medication-${patientId}-${title}`}
           title={title}
           date={onset}
           status={status}

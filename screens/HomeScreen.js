@@ -5,11 +5,6 @@ import _ from 'lodash';
 
 import { PatientContext } from '../providers/PatientContext';
 
-// const patientIds = [
-//   '0488ce70-f68d-45fb-b6a5-29684d0e4f35',
-//   '62acbbe9-7bae-4d33-b53f-a389c1a0e281',
-// ];
-
 export default function HomeScreen() {
   const [state, setState] = useContext(PatientContext);
   const [patients, setPatients] = useState([]);

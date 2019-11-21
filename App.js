@@ -38,7 +38,6 @@ async function loadResourcesAsync() {
       require('./assets/images/robot-prod.png'),
     ]),
     Font.loadAsync({
-      // This is the font that we are using for our tab bar
       ...Ionicons.font,
       roboto: require('./assets/fonts/Roboto-Regular.ttf'),
       'roboto-medium': require('./assets/fonts/Roboto-Medium.ttf'),
